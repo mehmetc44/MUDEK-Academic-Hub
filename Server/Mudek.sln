@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{F46C4917-3696-4DCA-8314-3C711964DFF5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mudek.Domain", "Core\Mudek.Domain\Mudek.Domain.csproj", "{EC58873A-112E-45AB-8C92-6393797F20F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mudek.Application", "Core\Mudek.Application\Mudek.Application.csproj", "{8D5F6696-D08E-4F4F-AD69-22E6C402B0C3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{534363B7-A740-42AA-9B91-E823B0180358}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mudek.Infrastructure", "Infrastructure\Mudek.Infrastructure\Mudek.Infrastructure.csproj", "{C2F75C2E-68A2-42A8-A14E-B686E2161C31}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mudek.Persistence", "Infrastructure\Mudek.Persistence\Mudek.Persistence.csproj", "{4657685F-B21A-45BD-9F56-C25F38C23515}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{D8FBDA06-B205-459C-9569-32282029D52E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mudek.WebAPI", "Presentation\Mudek.WebAPI\Mudek.WebAPI.csproj", "{FE73CF4E-0B44-4DAD-A41A-228E431BE60B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EC58873A-112E-45AB-8C92-6393797F20F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC58873A-112E-45AB-8C92-6393797F20F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC58873A-112E-45AB-8C92-6393797F20F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC58873A-112E-45AB-8C92-6393797F20F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D5F6696-D08E-4F4F-AD69-22E6C402B0C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D5F6696-D08E-4F4F-AD69-22E6C402B0C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D5F6696-D08E-4F4F-AD69-22E6C402B0C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D5F6696-D08E-4F4F-AD69-22E6C402B0C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2F75C2E-68A2-42A8-A14E-B686E2161C31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2F75C2E-68A2-42A8-A14E-B686E2161C31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2F75C2E-68A2-42A8-A14E-B686E2161C31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2F75C2E-68A2-42A8-A14E-B686E2161C31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4657685F-B21A-45BD-9F56-C25F38C23515}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4657685F-B21A-45BD-9F56-C25F38C23515}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4657685F-B21A-45BD-9F56-C25F38C23515}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4657685F-B21A-45BD-9F56-C25F38C23515}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE73CF4E-0B44-4DAD-A41A-228E431BE60B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE73CF4E-0B44-4DAD-A41A-228E431BE60B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE73CF4E-0B44-4DAD-A41A-228E431BE60B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE73CF4E-0B44-4DAD-A41A-228E431BE60B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EC58873A-112E-45AB-8C92-6393797F20F1} = {F46C4917-3696-4DCA-8314-3C711964DFF5}
+		{8D5F6696-D08E-4F4F-AD69-22E6C402B0C3} = {F46C4917-3696-4DCA-8314-3C711964DFF5}
+		{C2F75C2E-68A2-42A8-A14E-B686E2161C31} = {534363B7-A740-42AA-9B91-E823B0180358}
+		{4657685F-B21A-45BD-9F56-C25F38C23515} = {534363B7-A740-42AA-9B91-E823B0180358}
+		{FE73CF4E-0B44-4DAD-A41A-228E431BE60B} = {D8FBDA06-B205-459C-9569-32282029D52E}
+	EndGlobalSection
+EndGlobal
